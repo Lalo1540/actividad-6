@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problema 1041</title>
+	<link href="problema2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Coordenadas de un Punto</h1><hr>
+<h3>Descripcion</h3>
+<h4>Escriba un algoritmo que lea dos valores flotantes (x e y), que deben representar las coordenadas de un punto en un plano. A continuación, determine qué cuadrante pertenece el punto o si está sobre uno de los ejes cartesianos o el origen (x = y = 0).<br>
+<img src="https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1041.png"><br>
+Si el punto está en el origen, escriba el mensaje "Origem".<br><br>
+
+Si el punto está sobre el eje X, escriba "Eixo X", de lo contrario si el punto está sobre el eje Y, escriba "Eixo Y".</h4>
+
+<h3>Entrada</h3>
+<h4>La entrada contiene las coordenadas de un punto.</h4>
+
+<h3>Salida</h3>
+<h4>La salida deberá mostrar en pantalla el cuadrante en el que se encuentra el punto.
+
+</h4>
+
+<p>
+	X: <input type="number" id="num1"><br>
+	Y: <input type="number" id="num2"><br>
+	<button type="button" id="boton_calcula">Coordenadas</button><br><br>
+	<label>Resultado:</label>
+	<div id="div_msg"></div>
+	<script type="text/javascript" src="problema2.js"></script>
+</p>
+<table>
+	<tr>
+		<th>Ejemplos de entrada</th>
+		<th>Ejemplos de salia</th>
+	</tr>
+	<tr>
+		<td>4.5 -2.2</td>
+		<td>Q4</td>
+	</tr>
+	<tr>
+		<td>0.1 0.1</td>
+		<td>Q1</td>
+	</tr>
+	<tr>
+		<td>0.0 0.0</td>
+		<td>Origem</td>
+	</tr>
+</table>
+</body>
+</html>
