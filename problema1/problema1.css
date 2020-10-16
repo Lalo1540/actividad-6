@@ -1,0 +1,19 @@
+body{
+	background: #c1e2f1;
+}
+h1{
+	text-align: center;
+}
+tr{
+	border: black 1px solid;
+}
+td{
+	border: black 1px solid;
+}
+th{
+	border: black 1px solid;
+}
+button{
+	text-decoration: none;
+    background: #83c5e3;
+}

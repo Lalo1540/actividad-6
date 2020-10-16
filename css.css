@@ -1,0 +1,17 @@
+h1{
+	text-align: center;
+}
+button{
+	text-decoration: none;
+    padding: 40px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    width: 49%;
+    background: #83c5e3;
+}
+body{
+	background: #c1e2f1;
+}
